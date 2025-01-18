@@ -152,7 +152,7 @@ public class EmployeesDAO {
     
     
     //Modificar empleado
-    public boolean updaterEmployeeQuery(Employees employee){
+    public boolean updateEmployeeQuery(Employees employee){
         //Creamos nuestra query que le vamos a pasar para agregar un empleado nuevo
         String query = "UPDATE employees SET full_name = ? ,username = ?, address= ?, telephone= ?, email = ?, rol = ?, update = ? WHERE id = ?";
         //esta variable se utilizara para el create y el update
